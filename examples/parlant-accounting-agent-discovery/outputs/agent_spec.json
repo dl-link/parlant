@@ -1,0 +1,60 @@
+{
+  "spec_schema_version": "1.0",
+  "customer_profile": {
+    "company_name": null,
+    "industry": null,
+    "country": "New Zealand",
+    "currency": "NZD",
+    "primary_contacts": []
+  },
+  "current_stack": {
+    "accounting_system": null,
+    "bank_feeds": null,
+    "document_sources": [],
+    "api_access_available": null
+  },
+  "problem_statement": {
+    "top_pain_points": [],
+    "current_process_description": null,
+    "volume_metrics": {
+      "invoices_per_month": null,
+      "bank_transactions_per_month": null,
+      "customers_in_ar": null,
+      "suppliers_in_ap": null
+    }
+  },
+  "target_use_cases": [],
+  "automation_preferences": {
+    "automation_level": null,
+    "approval_threshold": 10000.0,
+    "escalation_path": null,
+    "failure_policy": null
+  },
+  "rules_and_policies": {
+    "accounting_policy_available": null,
+    "chart_of_accounts_available": null,
+    "tax_rules_notes": null,
+    "compliance_requirements": []
+  },
+  "integration_requirements": {
+    "needs_writeback": null,
+    "systems_to_integrate": [],
+    "data_retention_policy": null,
+    "deployment_environment": null
+  },
+  "mvp_definition": {
+    "recommended_mvp_use_case": null,
+    "mvp_scope": [],
+    "out_of_scope": [],
+    "required_sample_data": [],
+    "estimated_iterations": 3,
+    "second_priority_use_case": null,
+    "success_metrics": []
+  },
+  "final_output": {},
+  "metadata": {
+    "generated_at": "2026-01-02T09:59:06.293391Z",
+    "project": "parlant-accounting-agent-discovery",
+    "runtime": "python>=3.10"
+  }
+}
